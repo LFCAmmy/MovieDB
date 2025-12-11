@@ -38,3 +38,36 @@ open MovieDB.xcodeproj
 3. Build and Run
 	1.	Select the target device or simulator in Xcode.
 	2.	Press Cmd + R to build and run the app.
+
+⸻
+
+Project Structure
+	•	MovieDetailsViewController.swift → Shows movie details
+	•	MovieDetailsView.swift → Custom view with scrollView, image, labels
+	•	UIFactory.swift → Factory methods for reusable UI components
+	•	Movie.swift → Movie model
+	•	MoviePresenter.swift → Handles fetching data from API
+	•	Extensions/ → Helper extensions for UILabels, date formatting, number formatting
+
+⸻
+
+Notes
+	•	Navigation bar is transparent to allow the image to start from the top.
+	•	Labels support bold/normal text formatting.
+	•	Genre tags wrap into multiple lines dynamically.
+	•	Budget, duration, and release date are formatted for readability.
+
+⸻
+
+Contributing
+	1.	Fork the repository
+	2.	Create a feature branch: git checkout -b feature-name
+	3.	Commit your changes: git commit -m "Add some feature"
+	4.	Push to the branch: git push origin feature-name
+	5.	Open a Pull Request
+
+⸻
+
+License
+
+MIT License © 2025 LFCAmmy
